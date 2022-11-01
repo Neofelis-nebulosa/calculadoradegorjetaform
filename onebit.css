@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+
+:root{
+    --primary-color: hsl(330, 100%, 87%);
+    --secundary-color: hsl(329, 49%, 88%);
+    --tertiary-color: rgb(241, 214, 214);
+}
+
+body{
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Titillium, sans-serif;
+}
+#container{
+    height: 500px;
+    width: 300px;
+    margin: 100px auto;
+    background-color: var(--tertiary-color);
+    box-shadow: 3px 3px 6px black;
+    border-radius: 20px;
+}
+.title{
+    background-color: beige;
+    color:gray;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    text-align: center;
+}
+.tipsform{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.forminput{
+background-color: antiquewhite;
+width: 45px;
+margin-right: 5px;
+padding: 5px 5px 8px 8px;
+}
+.forminput:focus{
+    border: 2px solid var(--primary-color);
+}
+.formselect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+.formbutton{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    background-color: beige;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: grey;
+}
+.formbutton:hover{
+    border: 3px solid black;
+}
+
+#totaltip{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
